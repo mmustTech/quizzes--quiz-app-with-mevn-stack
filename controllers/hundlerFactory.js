@@ -34,7 +34,7 @@ exports.deleteOne = Model =>
 
         res.status(200).json({
             status: 'success',
-            message: 'Todo has been deleted with success!'
+            message: 'Document has been deleted with success!'
         });
     });
 
@@ -54,7 +54,7 @@ exports.updateOne = Model =>
 
         res.status(200).json({
             status: 'success',
-            message: 'Todo has been updated with success!',
+            message: 'Document has been updated with success!',
             data: {
                 data: doc
             }
